@@ -27,7 +27,7 @@ for item in w:
 s = list(map(lambda s: s.strip(), s))
 
 if ('') in s:
-    print("tr")
+    
     while '' in s:
         s.remove('')
 
